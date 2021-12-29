@@ -1,0 +1,26 @@
+.photo-card {
+  padding: 32px 48px;
+  text-align: center;
+}
+.photo-card img {
+  max-width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.photo-card img:hover {
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px rgba(88, 88, 88, 0.685);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.photo-card .title {
+  max-width: 300px;
+  margin-top: 16px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(5, 93, 151);
+}
+.photo-card .title:hover {
+  color: rgb(47, 47, 47);
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" href="../src/assets/camera.png" />
+
+
+
+  <title>Photo Library</title>
+</head>
+
+<body>
+
+
+  <div class="navbar navbar-expand-lg" id="title">
+
+    <div class="action-container">
+
+
+      <img class="logo" src="./assets/logo.png" alt="Logo" />
+      <h3>Photo Library</h3>
+
+      <input id="search" type="text" placeholder="Busca" />
+
+      <div>
+        <button id="grid">
+          <img src="./assets/grid.png" class="grid-img" />
+        </button>
+      </div>
+      <div>
+        <button id="list">
+          <img src="../src/assets/list.png" class="list-img" />
+        </button>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="col-12 col-6 " id="container"></div>
+  <div class="search-btn">
+    <p id="element-num"></p>
+    <button id="load-more">BUSCAR MAIS</button>
+  </div>
+
+
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

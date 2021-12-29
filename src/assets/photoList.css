@@ -1,0 +1,56 @@
+.photo-row {
+    background-color: rgba(255, 255, 255, 0.637);
+    margin: 15px auto 15px 150px;
+    width: 100%;
+    max-width: 1920px;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+  .photo-row:hover{
+    box-shadow: 1px 5px 10px rgba(88, 88, 88, 0.322);
+    
+  }
+  
+  .photo-row img {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 15px; 
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+  .photo-row img:hover {
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(88, 88, 88, 0.685);
+    transform: scale(1.05);
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .photo-row .title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: rgb(5, 93, 151);
+    cursor: pointer;
+  }
+  .photo-row .title:hover {
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-device-width: 720px) {
+    .photo-row {
+      display: table;
+      margin: 15px 15px;
+    }
+  
+    .photo-row .title {
+      display: table-cell;
+      float:inline-end;
+      vertical-align: middle;
+      font-size: 12px;
+  
+    }
+  }
