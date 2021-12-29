@@ -30,7 +30,6 @@ function getPhotos() {
 }
 getPhotos();
 
-
 function renderPhotos(rendered) {
   container.innerHTML = "";
   rendered.slice(0, lastElement).forEach((photo) => {
@@ -71,7 +70,6 @@ document.getElementById("search").addEventListener("input", ({ target }) => {
   renderPhotos(renderPhoto);
   totalPhotos = filterPhoto.length;
 });
-
 
 
 document.getElementById("list").addEventListener("click", listView);

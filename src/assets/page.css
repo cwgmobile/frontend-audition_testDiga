@@ -338,6 +338,7 @@ h3:hover {
     width: 50px;
     
   }
+  
   #container {
     flex-grow: 1;
     display: flex;
